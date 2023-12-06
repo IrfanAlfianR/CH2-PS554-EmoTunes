@@ -10,6 +10,6 @@ Bangkit Capstone 2022 Repository for Emo Tunes App
 * MD -
 
 ## Documentation for each learning path:
-### [🤖 Machine Learning]()
-### [⛅ Cloud Computing]()
-### [📱 Mobile Development]()
+### [🤖 Machine Learning](https://github.com/IrfanAlfianR/CH2-PS554-EmoTunes/tree/machine-learning)
+### [⛅ Cloud Computing](https://github.com/IrfanAlfianR/CH2-PS554-EmoTunes/tree/cloud-computing)
+### [📱 Mobile Development](https://github.com/IrfanAlfianR/CH2-PS554-EmoTunes/tree/mobile-development)
