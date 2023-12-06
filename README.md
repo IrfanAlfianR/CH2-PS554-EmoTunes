@@ -1,5 +1,5 @@
 # CH2-PS554-EmoTunes
-Bangkit Capstone 2022 Repository for Emo Tunes App
+Bangkit Capstone 2023 Repository for Emo Tunes App
 
 ## Project Team Members
 * ML - 
