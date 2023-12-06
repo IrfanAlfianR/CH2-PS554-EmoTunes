@@ -1,4 +1,4 @@
-# ⛅ Cloud Computing C22-PS276-Iswara
+# ⛅ Cloud Computing 
 Bangkit Capstone 2022 Repository for Emo Tunes App
 
 ## Documentation
