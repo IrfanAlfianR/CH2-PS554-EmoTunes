@@ -20,9 +20,30 @@ const moodGenreMap = {
   "default": "pop", // Genre default jika mood tidak terdeteksi
 };
 
-app.post('/search-track', async (req, res) => {
+app.post('/playlist', async (req, res) => {
   try {
     const emotion = (req.body.emotion || '').toLowerCase();
+    const genre = moodGenreMap[emotion] || moodGenreMap.default;
+
+    const apiKey = process.env.API_KEY;
+    const searchUrl = `https://api.deezer.com/search?q=${genre}&output=json&limit=10`;
+
+    const response = await axios.get(searchUrl, {
+      headers: {
+        'x-rapidapi-key': apiKey,
+      },
+    });
+
+    res.json(response.data);
+  } catch (error) {
+    console.error('Error:', error.message);
+    res.status(500).json({ error: 'Internal Server Error' });
+  }
+});
+
+app.get('/playlist/:emotion', async (req, res) => {
+  try {
+    const emotion = req.params.emotion.toLowerCase();
     const genre = moodGenreMap[emotion] || moodGenreMap.default;
 
     const apiKey = process.env.API_KEY;
