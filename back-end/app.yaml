@@ -1,0 +1,19 @@
+runtime: nodejs20
+
+env_variables:
+  PORT: 8080
+  API_KEY: 024ee849b641379322996c7e15ae2e48
+
+handlers:
+- url: /static
+  static_dir: pages
+
+- url: /pages
+  static_dir: pages
+
+- url: /
+  static_files: pages/index.html
+  upload: pages/index.html
+
+- url: /.*
+  script: auto
