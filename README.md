@@ -3,7 +3,8 @@ Bangkit Capstone 2023 Repository for Emo Tunes App
 
 ## Documentation
 * Break down the application design into independent components that run each feature as a separate service
-* Create REST API with node.js as a backend and Express.js framework for private API.
+* Create REST API with node.js as a backend and Express.js framework for private API
+* Using Deezer API to access music data
 * Defining storage characteristics and compute services of Google Cloud platform
 * Deploy backend application to Google Cloud platform using app engine compute service
 
