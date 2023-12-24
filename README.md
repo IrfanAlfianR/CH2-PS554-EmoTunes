@@ -6,7 +6,7 @@ Bangkit Capstone 2023 Repository for Emo Tunes App
 * ML - Risnu Irviandi (M200BSY1723)
 * ML - Syehan Husain Salsabila (M200BSY1857)
 * CC - Irfan Alfian Rizqi (C283BSY3726)
-* CC - Irfan Alfian Rizqi (C283BSY3726)
+* CC - Muhammad Hilmy (C283BSY3726)
 * MD - Azril Haryo Wicaksono Enkafi (A258BSY2103)
 
 ## Documentation for each learning path:
