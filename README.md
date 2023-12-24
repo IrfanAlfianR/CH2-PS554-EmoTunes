@@ -8,6 +8,9 @@ Bangkit Capstone 2023 Repository for Emo Tunes App
 * Defining storage characteristics and compute services of Google Cloud platform
 * Deploy backend application to Google Cloud platform using app engine compute service
 
+# Endpoint
+https://emotunesproject.et.r.appspot.com/
+
 # Architecture
 ![16](https://github.com/IrfanAlfianR/CH2-PS554-EmoTunes/assets/106134603/3915f881-d3c1-4153-82e0-72cb02ee776d)
 
